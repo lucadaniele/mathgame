@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C771E42E217496BF001F176C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771E42D217496BF001F176C /* AppDelegate.swift */; };
+		C771E430217496BF001F176C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771E42F217496BF001F176C /* ViewController.swift */; };
+		C771E433217496C0001F176C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C771E431217496C0001F176C /* Main.storyboard */; };
+		C771E436217496C0001F176C /* mathgame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C771E434217496C0001F176C /* mathgame.xcdatamodeld */; };
+		C771E438217496C0001F176C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C771E437217496C0001F176C /* Assets.xcassets */; };
+		C771E43B217496C0001F176C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C771E439217496C0001F176C /* LaunchScreen.storyboard */; };
+		C771E446217496C0001F176C /* mathgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771E445217496C0001F176C /* mathgameTests.swift */; };
+		C771E451217496C0001F176C /* mathgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771E450217496C0001F176C /* mathgameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C771E442217496C0001F176C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C771E422217496BF001F176C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C771E429217496BF001F176C;
+			remoteInfo = mathgame;
+		};
+		C771E44D217496C0001F176C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C771E422217496BF001F176C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C771E429217496BF001F176C;
+			remoteInfo = mathgame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C771E42A217496BF001F176C /* mathgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C771E42D217496BF001F176C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C771E42F217496BF001F176C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C771E432217496C0001F176C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C771E435217496C0001F176C /* mathgame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mathgame.xcdatamodel; sourceTree = "<group>"; };
+		C771E437217496C0001F176C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C771E43A217496C0001F176C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C771E43C217496C0001F176C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C771E441217496C0001F176C /* mathgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C771E445217496C0001F176C /* mathgameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathgameTests.swift; sourceTree = "<group>"; };
+		C771E447217496C0001F176C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C771E44C217496C0001F176C /* mathgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C771E450217496C0001F176C /* mathgameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathgameUITests.swift; sourceTree = "<group>"; };
+		C771E452217496C0001F176C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C771E427217496BF001F176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771E43E217496C0001F176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771E449217496C0001F176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C771E421217496BF001F176C = {
+			isa = PBXGroup;
+			children = (
+				C771E42C217496BF001F176C /* mathgame */,
+				C771E444217496C0001F176C /* mathgameTests */,
+				C771E44F217496C0001F176C /* mathgameUITests */,
+				C771E42B217496BF001F176C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C771E42B217496BF001F176C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C771E42A217496BF001F176C /* mathgame.app */,
+				C771E441217496C0001F176C /* mathgameTests.xctest */,
+				C771E44C217496C0001F176C /* mathgameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C771E42C217496BF001F176C /* mathgame */ = {
+			isa = PBXGroup;
+			children = (
+				C771E42D217496BF001F176C /* AppDelegate.swift */,
+				C771E42F217496BF001F176C /* ViewController.swift */,
+				C771E431217496C0001F176C /* Main.storyboard */,
+				C771E437217496C0001F176C /* Assets.xcassets */,
+				C771E439217496C0001F176C /* LaunchScreen.storyboard */,
+				C771E43C217496C0001F176C /* Info.plist */,
+				C771E434217496C0001F176C /* mathgame.xcdatamodeld */,
+			);
+			path = mathgame;
+			sourceTree = "<group>";
+		};
+		C771E444217496C0001F176C /* mathgameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C771E445217496C0001F176C /* mathgameTests.swift */,
+				C771E447217496C0001F176C /* Info.plist */,
+			);
+			path = mathgameTests;
+			sourceTree = "<group>";
+		};
+		C771E44F217496C0001F176C /* mathgameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C771E450217496C0001F176C /* mathgameUITests.swift */,
+				C771E452217496C0001F176C /* Info.plist */,
+			);
+			path = mathgameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C771E429217496BF001F176C /* mathgame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C771E455217496C0001F176C /* Build configuration list for PBXNativeTarget "mathgame" */;
+			buildPhases = (
+				C771E426217496BF001F176C /* Sources */,
+				C771E427217496BF001F176C /* Frameworks */,
+				C771E428217496BF001F176C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mathgame;
+			productName = mathgame;
+			productReference = C771E42A217496BF001F176C /* mathgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C771E440217496C0001F176C /* mathgameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C771E458217496C0001F176C /* Build configuration list for PBXNativeTarget "mathgameTests" */;
+			buildPhases = (
+				C771E43D217496C0001F176C /* Sources */,
+				C771E43E217496C0001F176C /* Frameworks */,
+				C771E43F217496C0001F176C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C771E443217496C0001F176C /* PBXTargetDependency */,
+			);
+			name = mathgameTests;
+			productName = mathgameTests;
+			productReference = C771E441217496C0001F176C /* mathgameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C771E44B217496C0001F176C /* mathgameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C771E45B217496C0001F176C /* Build configuration list for PBXNativeTarget "mathgameUITests" */;
+			buildPhases = (
+				C771E448217496C0001F176C /* Sources */,
+				C771E449217496C0001F176C /* Frameworks */,
+				C771E44A217496C0001F176C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C771E44E217496C0001F176C /* PBXTargetDependency */,
+			);
+			name = mathgameUITests;
+			productName = mathgameUITests;
+			productReference = C771E44C217496C0001F176C /* mathgameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C771E422217496BF001F176C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Paco;
+				TargetAttributes = {
+					C771E429217496BF001F176C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C771E440217496C0001F176C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C771E429217496BF001F176C;
+					};
+					C771E44B217496C0001F176C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C771E429217496BF001F176C;
+					};
+				};
+			};
+			buildConfigurationList = C771E425217496BF001F176C /* Build configuration list for PBXProject "mathgame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C771E421217496BF001F176C;
+			productRefGroup = C771E42B217496BF001F176C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C771E429217496BF001F176C /* mathgame */,
+				C771E440217496C0001F176C /* mathgameTests */,
+				C771E44B217496C0001F176C /* mathgameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C771E428217496BF001F176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771E43B217496C0001F176C /* LaunchScreen.storyboard in Resources */,
+				C771E438217496C0001F176C /* Assets.xcassets in Resources */,
+				C771E433217496C0001F176C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771E43F217496C0001F176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771E44A217496C0001F176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C771E426217496BF001F176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771E436217496C0001F176C /* mathgame.xcdatamodeld in Sources */,
+				C771E430217496BF001F176C /* ViewController.swift in Sources */,
+				C771E42E217496BF001F176C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771E43D217496C0001F176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771E446217496C0001F176C /* mathgameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C771E448217496C0001F176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771E451217496C0001F176C /* mathgameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C771E443217496C0001F176C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C771E429217496BF001F176C /* mathgame */;
+			targetProxy = C771E442217496C0001F176C /* PBXContainerItemProxy */;
+		};
+		C771E44E217496C0001F176C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C771E429217496BF001F176C /* mathgame */;
+			targetProxy = C771E44D217496C0001F176C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C771E431217496C0001F176C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C771E432217496C0001F176C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C771E439217496C0001F176C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C771E43A217496C0001F176C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C771E453217496C0001F176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C771E454217496C0001F176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C771E456217496C0001F176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 525244JYYZ;
+				INFOPLIST_FILE = mathgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paco.mathgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C771E457217496C0001F176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 525244JYYZ;
+				INFOPLIST_FILE = mathgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paco.mathgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C771E459217496C0001F176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 525244JYYZ;
+				INFOPLIST_FILE = mathgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paco.mathgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mathgame.app/mathgame";
+			};
+			name = Debug;
+		};
+		C771E45A217496C0001F176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 525244JYYZ;
+				INFOPLIST_FILE = mathgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paco.mathgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mathgame.app/mathgame";
+			};
+			name = Release;
+		};
+		C771E45C217496C0001F176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 525244JYYZ;
+				INFOPLIST_FILE = mathgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paco.mathgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mathgame;
+			};
+			name = Debug;
+		};
+		C771E45D217496C0001F176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 525244JYYZ;
+				INFOPLIST_FILE = mathgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paco.mathgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mathgame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C771E425217496BF001F176C /* Build configuration list for PBXProject "mathgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771E453217496C0001F176C /* Debug */,
+				C771E454217496C0001F176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C771E455217496C0001F176C /* Build configuration list for PBXNativeTarget "mathgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771E456217496C0001F176C /* Debug */,
+				C771E457217496C0001F176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C771E458217496C0001F176C /* Build configuration list for PBXNativeTarget "mathgameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771E459217496C0001F176C /* Debug */,
+				C771E45A217496C0001F176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C771E45B217496C0001F176C /* Build configuration list for PBXNativeTarget "mathgameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771E45C217496C0001F176C /* Debug */,
+				C771E45D217496C0001F176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C771E434217496C0001F176C /* mathgame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C771E435217496C0001F176C /* mathgame.xcdatamodel */,
+			);
+			currentVersion = C771E435217496C0001F176C /* mathgame.xcdatamodel */;
+			path = mathgame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C771E422217496BF001F176C /* Project object */;
+}
